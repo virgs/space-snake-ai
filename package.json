@@ -40,7 +40,8 @@
     "mobile-dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write 'src/**/*.{tsx,ts,scss,css}'"
+    "format": "prettier --write 'src/**/*.{tsx,ts,scss,css}'",
+    "cli": "ts-node --project tsconfig-node.json index.ts"
   },
   "dependencies": {
     "@emotion/styled": "^11.14.0",
@@ -60,6 +61,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@types/node": "^22.0.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
@@ -70,6 +72,7 @@
     "prettier": "^3.5.3",
     "sass": "^1.87.0",
     "terser": "^5.28.1",
+    "ts-node": "^10.9.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
     "vite": "^6.3.1",
