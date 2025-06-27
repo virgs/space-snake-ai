@@ -1,0 +1,25 @@
+:root {
+    --space-snake-font: "Jersey 25", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: var(--space-snake-font);
+    width: 100svw;
+    height: 100svh;
+    touch-action: pan-y;
+    overflow: hidden;
+    user-select: none;
+}
+
+#root {
+    width: 100svw;
+    height: 100svh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bs-background);
+}
